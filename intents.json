@@ -14,40 +14,5 @@
          "responses": ["no problem-O", "Any time!", "My pleasure"],
          "context": [""]
         },
-        {"tag": "noanswer",
-         "patterns": [],
-         "responses": ["pata nahi bro", "i don't know, sowwie", "Not sure"],
-         "context": ["question"]
-        },
-        {"tag": "health",
-         "patterns": ["tabiyat kaisi hai", "hows health", "kya hal chal", "theek hai", "What support is offered"],
-         "responses": ["sab badiya, wbu?", "so far so good!", "livin' life"],
-         "context": [""]
-        },
-        {"tag": "work",
-         "patterns": ["kya kar raha hai", "what you doing", "busy hai?"],
-         "responses": ["i'm doing good, how are you?", "nothing much, you tell?"],
-         "context": [""]
-        },
-        {"tag": "food",
-         "patterns": ["khana khaya", "khana kha raha hai?"],
-         "responses": ["haan kha liya","idk lets see", "nope"],
-         "context": [""]
-        },
-        {"tag": "song",
-         "patterns": ["song recommendation", "kuch naye ganne bata", "listening to music"],
-         "responses": ["pata nahi broo", "accha deekhta hu"],
-         "context": ["noanswer"]
-        },
-        {"tag": "conformation",
-         "patterns": ["pakka", "you sure", "confirm"],
-         "responses": ["not so sure but haan", "haan haan"],
-         "context": ["question"]
-        },
-        {"tag": "question",
-         "patterns": [],
-         "responses": ["tu bata kaisa hai?", "sab badiya?"],
-         "context": ["noanswer"]
-        }
    ]
 }
